@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+
+.tetris {
+    position: absolute;
+    left: 50%;
+    color: red;
+    font-size: 150px;
+    transform: translateX(-50%);
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:  250px;
+    font-size: 80px;
+    border: 5px black solid;
+}
+
+ul li {
+    display: block;
+    border-top: 1px black solid;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+}
+
+ul #easy {
+    background-color: rgb(76, 241, 76);
+}
+ul #easy:hover {
+    background-color: green;
+}
+
+ul #medium {
+    background-color: yellow;
+}
+
+ul #medium:hover {
+    background-color: rgb(168, 168, 6);
+}
+
+ul #difficult {
+    background-color: red;
+}
+
+ul #difficult:hover {
+    background-color: rgb(168, 7, 7);
+}

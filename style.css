@@ -1,0 +1,39 @@
+body {
+    position: relative;
+    background-image: url(LKd72F.jpg);
+}
+
+#box {
+    position: absolute;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+    border: 10px black solid;
+    border-radius: 3%;
+}
+
+#box2 {
+    position: absolute;
+    display: block;
+    left: 65%;
+    top: 35px;
+    border: 5px black solid;
+    border-radius: 5%;
+}
+
+.next {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    left: 67.3%;
+}
+
+#score {
+    font-size: 70px;
+    position: absolute;
+    right: 55%;
+    top: 30px;
+    transform: translateX(-50%);
+    color: red;
+}

@@ -1,5 +1,8 @@
 # tetris-game
 Using basic knowledge HTML, CSS, Javascript 
 
-(data/start-game.png)
+# Start game
+!(data/start-game.png)
+
+# In game
 (data/in-game.png)
